@@ -1,0 +1,8 @@
+.mainLeft {
+  background-color: white;
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  border-right: solid rgba(62, 141, 165, 0.671) 2px;
+}
