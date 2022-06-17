@@ -1,4 +1,4 @@
-import './mainLeft.css';
+import './mainLeft.scss';
 
 function MainLeft() {
   return (

@@ -1,0 +1,20 @@
+.mainTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 20vh;
+  width: 79.8%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  &__mainTitle {
+    color: white;
+    height: 100px;
+    color: rgba(62, 141, 165, 0.671);
+  }
+  &__userImage {
+    width: 100px;
+    height: 70px;
+  }
+}

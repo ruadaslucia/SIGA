@@ -1,4 +1,4 @@
-import './main.css';
+import './main.scss';
 import MainTop from '../mainTop/mainTop';
 import MainLeft from '../mainLeft/mainLeft';
 import MainRight from '../mainRight/mainRight';

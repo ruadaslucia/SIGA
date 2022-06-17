@@ -1,4 +1,4 @@
-import './mainRight.css';
+import './mainRight.scss';
 
 function MainRight() {
   return (
