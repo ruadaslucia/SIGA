@@ -1,0 +1,26 @@
+.mainTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 20vh;
+  width: 79.8%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.userImageContainer {
+  width: 100px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+}
+.userImage {
+  width: 100px;
+  height: 70px;
+}
+.mainTitle {
+  color: white;
+  height: 100px;
+  color: rgba(62, 141, 165, 0.671);
+}

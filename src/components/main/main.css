@@ -7,19 +7,3 @@
   height: 100vh;
   text-align: center;
 }
-.mainTitle {
-  color: white;
-  height: 100px;
-  color: rgba(62, 141, 165, 0.671);
-}
-
-.userImageContainer {
-  width: 100px;
-  height: 110px;
-  display: flex;
-  flex-direction: row;
-}
-.userImage {
-  width: 100px;
-  height: 110px;
-}
