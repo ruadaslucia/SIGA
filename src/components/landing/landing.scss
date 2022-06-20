@@ -35,6 +35,11 @@ body {
   text-transform: uppercase;
   border: none;
 }
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
 .landingForm {
   display: flex;
   flex-direction: column;
