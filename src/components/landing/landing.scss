@@ -4,12 +4,9 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
 }
-.mainLanding {
+.mainContent {
   background-image: linear-gradient(rgb(243, 243, 243), rgb(100, 153, 202));
   height: 100vh;
-}
-.mainContent {
-  padding: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +16,10 @@ body {
 .logoLanding {
   height: 200px;
   width: 250px;
+}
+.landingParagraph {
+  color: rgb(68, 118, 165);
+  font-weight: bold;
 }
 .buttonBox {
   margin-top: 50px;

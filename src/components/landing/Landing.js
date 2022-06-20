@@ -8,10 +8,12 @@ function Landing() {
     <>
       <div className="mainContent">
         <img className="logoLanding" src={logoSiga} alt="logo de SIGA" />
+        <p className="landingParagraph">Sistema de Gestión de Alumnos</p>
         <div className="landingForm">
           <label className="titleInput" htmlFor="name">
             USERNAME
           </label>
+
           <input
             className="nameInput"
             id="name"
