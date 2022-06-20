@@ -1,13 +1,16 @@
 import './App.css';
-import Main from './components/main/main.js';
-import Landing from './components/landing/Landing';
+import Main from './components/main/main';
+import Landing from './components/landing/landing';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Landing />
-      <Main />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/main" element={<Main />} />
+      </Routes>
+    </>
   );
 }
 
