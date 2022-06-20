@@ -1,12 +1,13 @@
-import './mainLeft.scss';
+import './sideBar.scss';
 import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
 
-function MainLeft() {
+function SideBar() {
   return (
     <div className="mainLeft">
       <h2 className="mainTitle">mainLeft</h2>
-      <ProSidebar>
+
+      <ProSidebar className="mainLeft__sideBar">
         <Menu iconShape="square">
           <MenuItem icon="">Menu</MenuItem>
           <SubMenu title="Cursos" icon="">
@@ -15,9 +16,8 @@ function MainLeft() {
           </SubMenu>
         </Menu>
       </ProSidebar>
-      ;
     </div>
   );
 }
 
-export default MainLeft;
+export default SideBar;
