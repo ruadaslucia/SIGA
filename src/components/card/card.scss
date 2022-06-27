@@ -3,10 +3,15 @@
   position: fixed;
   right: 5px;
   top: 75px;
+
   &__card {
     position: fixed;
     left: 250px;
-    height: 345px;
-    width: 345px;
+    height: 300px;
+    width: 250px;
   }
+}
+.studentPhoto img {
+  width: 50px;
+  height: 100px;
 }

@@ -1,3 +1,35 @@
-.side {
-  color: #ff0000;
+.toolbarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #008ba3;
+  height: 150px;
+  color: black;
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    // background-color: #008ba3;
+    height: 100%;
+
+    &__img {
+      background-color: white;
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+    }
+    &__name {
+      font-size: 26px;
+      // background-color: #008ba3;
+      font-weight: 500;
+    }
+    &__year {
+      font-size: 14px;
+      // background-color: #008ba3;
+      font-style: italic;
+      height: 100%;
+    }
+  }
 }

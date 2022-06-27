@@ -1,12 +1,14 @@
 import * as React from 'react';
-import '../sideBar/sidebar.scss';
+import StudentIcon from '../../images/studentIcon.png';
+import './sidebar.scss';
+
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import CssBaseline from '@mui/material/CssBaseline';
-import AppBar from '@mui/material/AppBar';
+// import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -17,7 +19,7 @@ export default function PermanentDrawerLeft() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar
+      {/* <AppBar
         position="fixed"
         sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}
       >
@@ -26,7 +28,7 @@ export default function PermanentDrawerLeft() {
             S.I.G.A. - Sistema de Gestión de Alumnos
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
       <Drawer
         sx={{
           width: drawerWidth,
@@ -39,7 +41,16 @@ export default function PermanentDrawerLeft() {
         variant="permanent"
         anchor="left"
       >
-        <Toolbar />
+        <Toolbar className="toolbarContainer">
+          <div className="content">
+            <img src={StudentIcon} className="content__img" />
+            <span className="content__name">USUARIO</span>
+          </div>
+          <div className="year">
+            <p>CURSO SCOLAR: 22/23</p>
+          </div>
+        </Toolbar>
+
         <Divider />
         <List>
           {[
@@ -65,6 +76,7 @@ export default function PermanentDrawerLeft() {
             </ListItem>
           ))}
         </List>
+        <Divider />
       </Drawer>
     </Box>
   );

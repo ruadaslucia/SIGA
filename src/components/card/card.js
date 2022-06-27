@@ -13,7 +13,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import '../card/card.scss';
+import './card.scss';
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -46,20 +46,20 @@ export default function RecipeReviewCard() {
               <MoreVertIcon />
             </IconButton>
           }
-          title="Shrimp and Chorizo Paella"
-          subheader="September 14, 2016"
+          title="Name"
+          subheader="Last Name"
         />
         <CardMedia
+          classname="cardContainer__studentPhoto"
           component="img"
-          height="194"
-          image="/static/images/cards/paella.jpg"
-          alt="Paella dish"
+          height="100"
+          width="75"
+          image="https://picsum.photos/id/237/200/300"
+          alt="Student Photo"
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+            Text with another information of the student.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
