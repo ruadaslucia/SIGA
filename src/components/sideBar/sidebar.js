@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../sideBar/sidebar.scss';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -22,7 +23,7 @@ export default function PermanentDrawerLeft() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            S.I.G.A. - Sistema de Gestión de
+            S.I.G.A. - Sistema de Gestión de Alumnos
           </Typography>
         </Toolbar>
       </AppBar>
