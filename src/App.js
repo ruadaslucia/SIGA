@@ -6,6 +6,7 @@ import '@fontsource/roboto/700.css';
 
 import Main from './components/main/main';
 import Landing from './components/landing/landing';
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {

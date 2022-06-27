@@ -21,12 +21,7 @@ export default function PermanentDrawerLeft() {
         sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px` }}
       >
         <Toolbar>
-          <Typography
-            classname="titleBackground"
-            variant="h6"
-            noWrap
-            component="div"
-          >
+          <Typography variant="h6" noWrap component="div">
             S.I.G.A. - Sistema de Gestión de
           </Typography>
         </Toolbar>
@@ -45,7 +40,7 @@ export default function PermanentDrawerLeft() {
       >
         <Toolbar />
         <Divider />
-        <List className="listUpLeft">
+        <List>
           {[
             'CURSOS',
             'TODOS LOS ALUMNOS',
@@ -70,24 +65,6 @@ export default function PermanentDrawerLeft() {
           ))}
         </List>
       </Drawer>
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
-      >
-        <Toolbar />
-        <Typography paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
-          dolor purus non enim praesent elementum facilisis leo vel. Risus at
-          ultrices mi tempus imperdiet.
-        </Typography>
-        <Typography paragraph>
-          Consequat mauris nunc congue nisi vitae suscipit. Fringilla est
-          ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar
-          elementum integer enim neque volutpat ac tincidunt. Ornare suspendisse
-          sed nisi lacus sed viverra tellus.
-        </Typography>
-      </Box>
     </Box>
   );
 }

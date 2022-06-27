@@ -1,0 +1,12 @@
+.cardContainer {
+  width: 80%;
+  position: fixed;
+  right: 5px;
+  top: 75px;
+  &__card {
+    position: fixed;
+    left: 250px;
+    height: 345px;
+    width: 345px;
+  }
+}
