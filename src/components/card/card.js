@@ -50,7 +50,7 @@ export default function RecipeReviewCard() {
           subheader="Last Name"
         />
         <CardMedia
-          classname="cardContainer__studentPhoto"
+          className="cardContainer__studentPhoto"
           component="img"
           height="100"
           width="75"
