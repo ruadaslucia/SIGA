@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './sidebar.scss';
+import { Link } from 'react-router-dom';
 
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -21,9 +22,21 @@ import Avatar from '@mui/material/Avatar';
 
 const drawerWidth = 240;
 
-const menuItemStudents = { text: 'ALUMNOS', icon: <PeopleIcon /> };
-const menuItemClasses = { text: 'CLASES', icon: <ChairAltIcon /> };
-const menuItemProfile = { text: 'PERFIL', icon: <AccountCircleIcon /> };
+const menuItemStudents = {
+  text: 'ALUMNOS',
+  icon: <PeopleIcon />,
+  url: '/main/students',
+};
+const menuItemClasses = {
+  text: 'CLASES',
+  icon: <ChairAltIcon />,
+  url: '',
+};
+const menuItemProfile = {
+  text: 'PERFIL',
+  icon: <AccountCircleIcon />,
+  url: '/main',
+};
 
 const menuItems = [menuItemStudents, menuItemClasses, menuItemProfile];
 
@@ -60,7 +73,9 @@ export default function PermanentDrawerLeft() {
             <ListItem key={menuItem.text} className="listItem" disablePadding>
               {menuItem.icon}
               <ListItemButton className="sidebarList__listItemButton">
-                <ListItemText primary={menuItem.text} />
+                <Link to={menuItem.url}>
+                  <ListItemText primary={menuItem.text} />
+                </Link>
               </ListItemButton>
             </ListItem>
           ))}

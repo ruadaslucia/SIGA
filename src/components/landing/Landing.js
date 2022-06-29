@@ -24,7 +24,7 @@ function Landing() {
         </div>
         <div className="buttonBox">
           <button className="button" onClick={handleClickStart}>
-            <Link classNameName="button__link" to="/main">
+            <Link className="button__link" to="/main">
               Comenzar
             </Link>
           </button>

@@ -1,7 +1,7 @@
 import '../students/students.scss';
 function Students() {
   return (
-    <div classsName="students">
+    <div className="students">
       <p>Mis alumnos</p>
     </div>
   );

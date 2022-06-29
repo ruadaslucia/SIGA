@@ -5,7 +5,7 @@ body {
   border: none;
 }
 .mainContent {
-  background-image: linear-gradient(rgb(243, 243, 243), rgb(100, 153, 202));
+  background-image: linear-gradient(#62eeff, #008ba2);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,14 +18,14 @@ body {
   width: 260px;
 }
 .landingParagraph {
-  color: rgb(68, 118, 165);
+  color: #006374bb;
   font-weight: bold;
 }
 .buttonBox {
   margin-top: 50px;
 }
 .button {
-  background-color: rgb(68, 118, 165);
+  background-color: #006374bb;
   border-radius: 21px;
   width: 129px;
   height: 42px;
@@ -47,7 +47,7 @@ body {
   margin-top: 50px;
 }
 .titleInput {
-  color: rgb(68, 118, 165);
+  color: #006374bb;
   font-weight: bold;
   margin-bottom: 10px;
 }

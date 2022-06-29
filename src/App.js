@@ -6,6 +6,8 @@ import '@fontsource/roboto/700.css';
 
 import Main from './components/main/main';
 import Landing from './components/landing/landing';
+import Classes from './components/classes/Classes';
+import Students from './components/students/Students';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -14,7 +16,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/main" element={<Main />} />
+        <Route path="/main" element={<Main />}>
+          <Route path="classes" element={<Classes />} />
+          <Route path="students" element={<Students />} />
+        </Route>
       </Routes>
     </>
   );
