@@ -4,15 +4,17 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 
-function handleSearchText() {
-  console.log();
-}
-
-function handleSearchClick(event) {
-  event.preventDefault();
-}
-
 function CustomizedInputBase() {
+  function handleSearchText(event) {
+    event.preventDefault();
+    let textRaw = event.target.value;
+
+    console.log(textRaw);
+  }
+
+  function handleSearchClick(event) {
+    event.preventDefault();
+  }
   return (
     <Paper
       component="form"
@@ -24,6 +26,7 @@ function CustomizedInputBase() {
         inputProps={{ 'aria-label': 'search google maps' }}
         onChange={handleSearchText}
       />
+
       <IconButton
         type="submit"
         sx={{ p: '10px' }}

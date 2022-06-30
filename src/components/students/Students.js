@@ -10,6 +10,9 @@ function Students() {
       </div>
       <div className="students__studentCard">
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
