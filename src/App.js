@@ -8,7 +8,6 @@ import Main from './components/main/main';
 import Landing from './components/landing/landing';
 import Classes from './components/classes/Classes';
 import Students from './components/students/Students';
-
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
