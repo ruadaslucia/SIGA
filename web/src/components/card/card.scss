@@ -1,0 +1,17 @@
+.cardContainer {
+  width: 80%;
+  position: fixed;
+  right: 5px;
+  top: 15px;
+
+  &__card {
+    position: fixed;
+    left: 250px;
+    height: 300px;
+    width: 250px;
+  }
+}
+.studentPhoto img {
+  width: 50px;
+  height: 100px;
+}
