@@ -11,7 +11,7 @@ function Landing() {
         <p className="landingParagraph">Sistema de Gestión de Alumnos</p>
         <div className="landingForm">
           <label className="titleInput" htmlFor="name">
-            USERNAME
+            NOMBRE DE USUARIO
           </label>
 
           <input
@@ -19,7 +19,7 @@ function Landing() {
             id="name"
             type="text"
             name="name"
-            placeholder=""
+            placeholder="Pepito"
           />
         </div>
         <div className="buttonBox">
