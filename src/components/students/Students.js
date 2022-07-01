@@ -1,5 +1,5 @@
 import '../students/students.scss';
-import Card from '../card/card';
+import StudentThumbnail from '../studentThumbnail/StudentThumbnail';
 import Search from './search/Search';
 function Students() {
   return (
@@ -9,10 +9,10 @@ function Students() {
         <Search />
       </div>
       <div className="students__studentCard">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
       </div>
     </div>
   );
