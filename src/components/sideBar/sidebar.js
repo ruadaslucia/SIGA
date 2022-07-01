@@ -35,7 +35,7 @@ const menuItemClasses = {
 const menuItemProfile = {
   text: 'PERFIL',
   icon: <AccountCircleIcon />,
-  url: '/main',
+  url: '/main/profile',
 };
 
 const menuItems = [menuItemStudents, menuItemClasses, menuItemProfile];
