@@ -30,8 +30,8 @@ function StudentThumbnail() {
   };
 
   return (
-    <div className="cardContainer">
-      <Card>
+    <div>
+      <Card className="card">
         <CardMedia component="img" image={studentAvatar} alt="Student Photo" />
         <CardHeader title="Full Name" />
 

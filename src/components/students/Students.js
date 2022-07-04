@@ -8,7 +8,15 @@ function Students() {
       <div className="students__searchBar">
         <Search />
       </div>
-      <div className="students__studentCard">
+      <div className="students__studentsCard">
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
+        <StudentThumbnail />
         <StudentThumbnail />
         <StudentThumbnail />
         <StudentThumbnail />

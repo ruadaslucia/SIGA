@@ -4,7 +4,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-import Main from './components/main/main';
+import Main from './components/main/Main';
 import Landing from './components/landing/Landing';
 import Classes from './components/classes/Classes';
 import Students from './components/students/Students';

@@ -4,9 +4,8 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 
-function CustomizedInputBase() {
+function Search() {
   function handleSearchText(event) {
-    event.preventDefault();
     let textRaw = event.target.value;
 
     console.log(textRaw);
@@ -17,6 +16,7 @@ function CustomizedInputBase() {
   }
   return (
     <Paper
+      className="searchBar"
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
     >
@@ -38,4 +38,4 @@ function CustomizedInputBase() {
     </Paper>
   );
 }
-export default CustomizedInputBase;
+export default Search;
