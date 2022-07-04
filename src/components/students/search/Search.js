@@ -3,18 +3,18 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
-import { FormControlUnstyledContext } from '@mui/base';
 
 function Search() {
   function handleSearchText(event) {
     if (event.key === 'Enter') {
-      console.log('tecla enter');
+      event.preventDefault();
+      console.log('ENTER');
     }
   }
 
   function handleSearchClick(event) {
     event.preventDefault();
-    console.log('icono lupa');
+    console.log('LUPA');
   }
   return (
     <Paper
