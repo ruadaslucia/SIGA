@@ -3,16 +3,18 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
+import { FormControlUnstyledContext } from '@mui/base';
 
 function Search() {
   function handleSearchText(event) {
-    let textRaw = event.target.value;
-
-    console.log(textRaw);
+    if (event.key === 'Enter') {
+      console.log('tecla enter');
+    }
   }
 
   function handleSearchClick(event) {
     event.preventDefault();
+    console.log('icono lupa');
   }
   return (
     <Paper
@@ -24,7 +26,7 @@ function Search() {
         sx={{ ml: 1, flex: 1 }}
         placeholder="Busca a un alumno"
         inputProps={{ 'aria-label': 'search google maps' }}
-        onChange={handleSearchText}
+        onKeyDown={handleSearchText}
       />
 
       <IconButton
@@ -38,4 +40,5 @@ function Search() {
     </Paper>
   );
 }
+
 export default Search;
