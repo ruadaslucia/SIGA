@@ -3,3 +3,26 @@
   margin-left: 15px;
   margin-top: 15px;
 }
+.cardStudentName {
+  text-align: start;
+}
+.cardText {
+  text-align: start;
+}
+.cardLink {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: small;
+}
+.cardLink a {
+  text-decoration-line: none;
+  color: #2099d1;
+  font-weight: bold;
+}
+.cardLinkLearnmore {
+  margin-left: 20px;
+}

@@ -19,7 +19,7 @@ function Landing() {
             id="name"
             type="text"
             name="name"
-            placeholder="Pepito"
+            placeholder="Nombre de usuario"
           />
         </div>
         <div className="buttonBox">
