@@ -40,7 +40,10 @@ const menuItemProfile = {
 
 const menuItems = [menuItemStudents, menuItemClasses, menuItemProfile];
 
-export default function PermanentDrawerLeft() {
+function Sidebar() {
+  function handleNewClass() {
+    console.log('Este botón abre un formulario que añade una nueva clase');
+  }
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -81,6 +84,7 @@ export default function PermanentDrawerLeft() {
           ))}
           <Button
             className="addClass"
+            onClick={handleNewClass}
             variant="contained"
             endIcon={<SendIcon />}
           >
@@ -92,3 +96,4 @@ export default function PermanentDrawerLeft() {
     </Box>
   );
 }
+export default Sidebar;
