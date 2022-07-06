@@ -25,10 +25,8 @@ function StudentThumbnail() {
           </Typography>
         </CardContent>
         <div className="cardLink">
-          <a href="http://www.marca.com">share</a>
-          <a className="cardLinkLearnmore" href="http://www.marca.com">
-            learn more
-          </a>
+          <button className="box">acount box</button>
+          <button className="box">cancel</button>
         </div>
       </Card>
     </div>

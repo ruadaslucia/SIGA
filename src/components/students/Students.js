@@ -14,13 +14,11 @@ function Students() {
         <StudentThumbnail />
         <StudentThumbnail />
         <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
-        <StudentThumbnail />
+        <div className="buttonContainer">
+          <button className="addStudentButton" title="Añadir alumno">
+            +
+          </button>
+        </div>
       </div>
     </div>
   );

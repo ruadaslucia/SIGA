@@ -80,7 +80,7 @@ export default function PermanentDrawerLeft() {
             </ListItem>
           ))}
           <Button
-            className="sendButton"
+            className="sigaButton"
             variant="contained"
             endIcon={<SendIcon />}
           >
