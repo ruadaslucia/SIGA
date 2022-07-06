@@ -7,6 +7,8 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import './studentThumbnail.scss';
 import studentAvatar from '../../images/avatarAlumno.jpg';
+import DeleteButton from './deleteButton/DeleteButton';
+import StudentDetail from './studentDetail/StudentDetail';
 
 function StudentThumbnail() {
   return (
@@ -25,8 +27,8 @@ function StudentThumbnail() {
           </Typography>
         </CardContent>
         <div className="cardLink">
-          <button className="box">acount box</button>
-          <button className="box">cancel</button>
+          <StudentDetail />
+          <DeleteButton />
         </div>
       </Card>
     </div>
