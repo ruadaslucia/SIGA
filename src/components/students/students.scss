@@ -20,22 +20,3 @@
     justify-content: space-evenly;
   }
 }
-.buttonContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.addStudentButton {
-  background-color: #62eeff;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: none;
-  color: black;
-  font-size: 45px;
-  box-shadow: 0px 1px 2px rgba(102, 102, 102, 0.8);
-}
-.addStudentButton:hover {
-  color: white;
-  box-shadow: 0px 1px 5px rgba(102, 102, 102, 0.8);
-}

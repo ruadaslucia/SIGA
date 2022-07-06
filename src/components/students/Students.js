@@ -1,6 +1,7 @@
 import '../students/students.scss';
 import StudentThumbnail from '../studentThumbnail/StudentThumbnail';
 import Search from './search/Search';
+import AddStudentButton from './addStudentButton/AddStudentButton';
 function Students() {
   return (
     <div className="students">
@@ -14,11 +15,7 @@ function Students() {
         <StudentThumbnail />
         <StudentThumbnail />
         <StudentThumbnail />
-        <div className="buttonContainer">
-          <button className="addStudentButton" title="Añadir alumno">
-            +
-          </button>
-        </div>
+        <AddStudentButton />
       </div>
     </div>
   );

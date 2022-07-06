@@ -73,14 +73,14 @@ export default function PermanentDrawerLeft() {
             <ListItem key={menuItem.text} className="listItem" disablePadding>
               {menuItem.icon}
               <ListItemButton className="sidebarList__listItemButton">
-                <Link to={menuItem.url}>
+                <Link className="listItemText" to={menuItem.url}>
                   <ListItemText primary={menuItem.text} />
                 </Link>
               </ListItemButton>
             </ListItem>
           ))}
           <Button
-            className="sigaButton"
+            className="addClass"
             variant="contained"
             endIcon={<SendIcon />}
           >

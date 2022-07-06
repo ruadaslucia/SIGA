@@ -31,15 +31,19 @@
     margin-left: 20px;
   }
 }
-.sigaButton {
+.addClass {
   background-color: #62eeff !important;
   color: #000 !important;
 }
-.sigaButton:hover {
+.addClass:hover {
   color: white !important;
 }
 .listItem {
   padding-left: 15px;
+}
+.listItemText {
+  text-decoration: none;
+  color: black;
 }
 
 .avatar {
