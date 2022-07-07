@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
+var express = require('express');
+var app = express();
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+var HTTP_PORT = 4000;
+
+app.listen(HTTP_PORT, () => {
+  console.log(`Server running on port ${HTTP_PORT}`);
+});
+
+app.use((req, res) => {
+  res.status(404);
+});

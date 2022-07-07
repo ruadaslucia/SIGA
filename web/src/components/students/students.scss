@@ -1,0 +1,19 @@
+.students {
+  background-color: #e2e2e2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  // background-color: #7ec5ff65;
+
+  &__searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__studentsCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

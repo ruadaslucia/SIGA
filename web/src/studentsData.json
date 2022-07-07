@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Laura",
+    "lastName": "Sanchez Cantón",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Sara",
+    "lastName": " Ríos Méndez ",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Pablo",
+    "lastName": "Oleiros Marín ",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Elena",
+    "lastName": "Montero Padín",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Jacobo",
+    "lastName": "Puerto Costas",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Sonia",
+    "lastName": "Puerto Costas",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Pablo",
+    "lastName": "Caballero Mendoza",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Mimi",
+    "lastName": "Ngulo Castro",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Carina",
+    "lastName": "Soler Costas",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Javier",
+    "lastName": "Costas Pérez",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Melisa",
+    "lastName": "Pereira Martín",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Carlos",
+    "lastName": "Oregón Soto",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Daniel",
+    "lastName": "Caride Portas",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Sara",
+    "lastName": "Casas Robledo",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Sonia",
+    "lastName": "Domínguez Domínguez",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Celia",
+    "lastName": "Costas Acuña",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Francisco",
+    "lastName": "Res Rozados",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Lucas",
+    "lastName": "Pedreiro Meis",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  },
+  {
+    "name": "Cristina",
+    "lastName": "Portos Cotos",
+    "class": "1A",
+    "course": 2022,
+    "photo": "https://picsum.photos/id/237/200/300"
+  }
+]
