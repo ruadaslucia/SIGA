@@ -4,6 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
+/alumnosMockUp.jpg
+/avatarAlumno.jpg
+/landing.jpg
+/logo.jpg
 
 # testing
 /coverage
@@ -21,3 +25,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/web/build/
+/web/node_modules/
+/.vscode/settings.json

@@ -35,12 +35,15 @@ const menuItemClasses = {
 const menuItemProfile = {
   text: 'PERFIL',
   icon: <AccountCircleIcon />,
-  url: '/main',
+  url: '/main/profile',
 };
 
 const menuItems = [menuItemStudents, menuItemClasses, menuItemProfile];
 
-export default function PermanentDrawerLeft() {
+function Sidebar() {
+  function handleNewClass() {
+    console.log('Este botón abre un formulario que añade una nueva clase');
+  }
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -73,14 +76,15 @@ export default function PermanentDrawerLeft() {
             <ListItem key={menuItem.text} className="listItem" disablePadding>
               {menuItem.icon}
               <ListItemButton className="sidebarList__listItemButton">
-                <Link to={menuItem.url}>
+                <Link className="listItemText" to={menuItem.url}>
                   <ListItemText primary={menuItem.text} />
                 </Link>
               </ListItemButton>
             </ListItem>
           ))}
           <Button
-            className="sendButton"
+            className="addClass"
+            onClick={handleNewClass}
             variant="contained"
             endIcon={<SendIcon />}
           >
@@ -92,3 +96,4 @@ export default function PermanentDrawerLeft() {
     </Box>
   );
 }
+export default Sidebar;

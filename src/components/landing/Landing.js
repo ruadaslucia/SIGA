@@ -1,6 +1,6 @@
 import './landing.scss';
 import { Link } from 'react-router-dom';
-import logoSiga from '../../images/logoSiga.png';
+import logoSiga from '../../images/logo.jpg';
 
 function Landing() {
   const handleClickStart = () => {};
@@ -11,7 +11,7 @@ function Landing() {
         <p className="landingParagraph">Sistema de Gestión de Alumnos</p>
         <div className="landingForm">
           <label className="titleInput" htmlFor="name">
-            USERNAME
+            NOMBRE DE USUARIO
           </label>
 
           <input
@@ -19,12 +19,12 @@ function Landing() {
             id="name"
             type="text"
             name="name"
-            placeholder=""
+            placeholder="Nombre de usuario"
           />
         </div>
         <div className="buttonBox">
           <button className="button" onClick={handleClickStart}>
-            <Link className="button__link" to="/main">
+            <Link className="button__link" to="/main/profile">
               Comenzar
             </Link>
           </button>

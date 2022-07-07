@@ -31,13 +31,16 @@
     margin-left: 20px;
   }
 }
-.sendButton {
+.addClass {
   background-color: #62eeff !important;
   color: #000 !important;
 }
-
 .listItem {
   padding-left: 15px;
+}
+.listItemText {
+  text-decoration: none;
+  color: black;
 }
 
 .avatar {

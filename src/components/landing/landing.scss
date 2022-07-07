@@ -14,8 +14,7 @@ body {
   text-align: center;
 }
 .logoLanding {
-  height: 200px;
-  width: 260px;
+  height: 150px;
 }
 .landingParagraph {
   color: #006374bb;
@@ -55,4 +54,7 @@ body {
   border-radius: 5px;
   border: none;
   height: 25px;
+}
+.nameInput::placeholder {
+  color: rgb(170, 170, 170);
 }

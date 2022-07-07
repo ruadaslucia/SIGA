@@ -1,8 +1,10 @@
 import '../profile/profile.scss';
+import ProfileTitle from './profileTitle/ProfileTitle';
+
 function Profile() {
   return (
     <div className="profile">
-      <p>Mi perfil</p>
+      <ProfileTitle />
     </div>
   );
 }
