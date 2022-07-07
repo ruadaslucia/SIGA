@@ -5,17 +5,14 @@
   text-align: start;
 }
 
-// .cardLink {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: start;
-//   margin-left: 15px;
-//   margin-bottom: 15px;
-//   font-size: small;
-// }
-
-.studenThumbNailButton {
-  width: 40px;
-  height: 40px;
-  margin: 0 0 15px 15px;
+.cardLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+.cardLink Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }

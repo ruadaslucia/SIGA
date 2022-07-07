@@ -7,9 +7,10 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import './studentThumbnail.scss';
 import studentAvatar from '../../images/avatarAlumno.jpg';
-
-import CancelIcon from '@mui/icons-material/Cancel';
+import Button from '@mui/material/Button';
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
+// import { List } from '@mui/material';
 
 function StudentThumbnail() {
   function handleStudentDetail() {
@@ -21,7 +22,7 @@ function StudentThumbnail() {
   return (
     <div>
       <Card className="card">
-        <CardMedia component="img" image={studentAvatar} alt="Student Photo" />
+        <CardMedia component="img" image={studentAvatar} alt="Student Avatar" />
         <CardHeader className="cardStudentName" title="Full Name" />
 
         <CardContent>
@@ -29,18 +30,18 @@ function StudentThumbnail() {
             Text with another information of the student.
           </Typography>
         </CardContent>
+
         <div className="cardLink">
-          <button
-            className="studenThumbNailButton"
-            onClick={handleStudentDetail}
-            variant="contained"
-            endIcon={<CancelIcon />}
-          ></button>
-          <button
-            className="studenThumbNailButton"
+          <Button
+            title="Student info"
             onClick={handleDeleteButton}
             endIcon={<PersonRoundedIcon />}
-          ></button>
+          ></Button>
+          <Button
+            title="Delete student"
+            onClick={handleStudentDetail}
+            endIcon={<DeleteRoundedIcon />}
+          ></Button>
         </div>
       </Card>
     </div>
