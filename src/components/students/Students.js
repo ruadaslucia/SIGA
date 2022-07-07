@@ -2,10 +2,11 @@ import '../students/students.scss';
 import StudentThumbnail from '../studentThumbnail/StudentThumbnail';
 import Search from './search/Search';
 import AddStudentButton from './addStudentButton/AddStudentButton';
+import StudentsTitle from './studentsTitle/StudentsTitle';
 function Students() {
   return (
     <div className="students">
-      <h1 className="students__title">alumnos</h1>
+      <StudentsTitle />
       <div className="students__searchBar">
         <Search />
       </div>

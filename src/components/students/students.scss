@@ -1,15 +1,11 @@
 .students {
+  background-color: #e2e2e2;
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  background-color: #e2e2e2;
   // background-color: #7ec5ff65;
 
-  &__title {
-    text-transform: uppercase;
-  }
   &__searchBar {
     display: flex;
     flex-direction: row;
