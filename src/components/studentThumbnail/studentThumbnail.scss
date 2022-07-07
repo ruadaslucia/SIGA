@@ -5,14 +5,10 @@
   text-align: start;
 }
 
-.cardLink {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  margin-bottom: 15px;
+.studentThumbnailCardActions {
+  justify-content: flex-end;
 }
-.cardLink Button {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
+
+.iconButton {
+  color: #00bcd4 !important;
 }

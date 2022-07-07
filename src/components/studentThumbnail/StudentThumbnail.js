@@ -7,9 +7,9 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import './studentThumbnail.scss';
 import studentAvatar from '../../images/avatarAlumno.jpg';
-import Button from '@mui/material/Button';
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
+import { CardActions, IconButton } from '@mui/material';
 // import { List } from '@mui/material';
 
 function StudentThumbnail() {
@@ -20,31 +20,35 @@ function StudentThumbnail() {
     console.log('Este botón elimina este alumno');
   }
   return (
-    <div>
-      <Card className="card">
-        <CardMedia component="img" image={studentAvatar} alt="Student Avatar" />
-        <CardHeader className="cardStudentName" title="Full Name" />
+    <Card className="card">
+      <CardMedia component="img" image={studentAvatar} alt="Student Avatar" />
+      <CardHeader className="cardStudentName" title="Full Name" />
 
-        <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            Text with another information of the student.
-          </Typography>
-        </CardContent>
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+          Text with another information of the student.
+        </Typography>
+      </CardContent>
 
-        <div className="cardLink">
-          <Button
-            title="Student info"
-            onClick={handleDeleteButton}
-            endIcon={<PersonRoundedIcon />}
-          ></Button>
-          <Button
-            title="Delete student"
-            onClick={handleStudentDetail}
-            endIcon={<DeleteRoundedIcon />}
-          ></Button>
-        </div>
-      </Card>
-    </div>
+      <CardActions disableSpacing className="studentThumbnailCardActions">
+        <IconButton
+          className="iconButton"
+          title="Student info"
+          onClick={handleDeleteButton}
+          size="large"
+        >
+          <PersonRoundedIcon font-size="inherit" />
+        </IconButton>
+        <IconButton
+          className="iconButton"
+          title="Delete student"
+          onClick={handleStudentDetail}
+          size="large"
+        >
+          <DeleteRoundedIcon font-size="inherit" />
+        </IconButton>
+      </CardActions>
+    </Card>
   );
 }
 export default StudentThumbnail;
